@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style1.css">
+<body>
+    <div align="center">
+        <img src="spotify.png" alt="logo"width="500"breadth="1000"class="center">
+        <hr>
+        <form align="center" aria-setsize="100%">
+            <input type="button"value="SIGN UP WITH FACEBOOK"id="button1">
+            <table width=100%>
+                <tr>
+                    <td>
+                        <hr>
+                    </td>
+                    <td width=4% align="center">
+                        or
+                    </td>
+                    <td>
+                        <hr>
+                    </td>
+                </tr>
+            </table>
+            <h4>
+                Sign up with your email address
+            </h4>
+            <input type="email"placeholder="Email"size="100%"><br><br>
+            <input type="email"placeholder="Confrim email"size="100%"><br><br>
+            <input type="password"placeholder="password"size="100%"><br><br>
+            <input type="text"placeholder="What should we call you?"><br><br>
+            <lable style="margin-right:50%;">Date of birth:</lable><br>
+            <select name="month" id="month">
+                <option>JAN</option>
+                <option>FEB</option>
+                <option>MAR</option>
+                <option>APR</option>
+                <option>MAY</option>
+                <option>JUN</option>
+                <option>JUL</option>
+                <option>AUG</option>
+                <option>SEP</option>
+                <option>OCT</option>
+                <option>NOV</option>
+                <option>DEC</option>
+            </select>
+            <input type="number"placeholder="Date"size="10"max="30"min="1"onkeydown="return false">
+            <input type="year"placeholder="day"size="10"min="1985"max="2022"onkeydown="return false"><br><br>
+            <input type="radio"name="gender">
+            <lable for="Male">Male</lable>
+            <input type="radio"name="gender">
+            <lable for="Female">Female</lable>
+            <input type="radio"name="gender">
+            <lable for="Non-binary">Non-binary</lable><br><br>
+            <input type="checkbox">
+            <lable for="check">Share my registration data with Spotify's content providers for marketing purposes.</lable><br><br>
+            <table style="background-color: rgb(241, 235, 235);"align="center">
+            <tr>
+                <td width="70%">
+                    <input type="checkbox">
+                    <lable>I'm not a robot</lable>
+                </td>
+                <td>
+                <img src="data:image/png;base64,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" alt="Recapcha"></td></tr></table>
+            <p align="center">By clicking on Sign up,you agree to spotify's 
+                <span style="color:rgb(129,212,4)">Terms and Conditions of Use</span><br><br>
+            To learn more about to Spotify's collects,uses,shares and protects your personal data read Spotify's 
+             <span style="color:rgb(129,212,4)">Privacy Policy.
+             </span></p>
+             <input type="button"id="button2"value="SIGN UP"style="width:200px"></form></div>
+
+
+    
+</body>
+</html>
